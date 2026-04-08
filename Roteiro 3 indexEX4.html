@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2 id="contador">Contador: 0</h2>
+<button onclick="somar()">Somar +1</button>
+
+<script>
+let numero = 0;
+
+function somar() {
+  numero++;
+  document.getElementById("contador").innerText = "Contador: " + numero;
+}
+</script>
+
+</body>
+</html>
